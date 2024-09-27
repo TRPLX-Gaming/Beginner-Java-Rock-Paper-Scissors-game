@@ -77,7 +77,7 @@ public class RPSGame {
             computerPoints++;
             return "draw";
         } else if(playerInput.equals("rock")) {
-            if(playerInput.equals("paper")) {
+            if(computerInput.equals("paper")) {
                 computerPoints++;
                 return "computer";
             } else {
